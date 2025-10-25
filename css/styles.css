@@ -32,12 +32,12 @@ a:hover{color:var(--accent-hover);}
 
 
 .avatar {
-  width: 150px;           /* largeur fixe */
-  height: 150px;          /* hauteur fixe */
-  object-fit: cover;      /* évite la déformation */
-  border-radius: 10px;    /* coins arrondis */
+  width: 150px;          
+  height: 150px;        
+  object-fit: cover;      
+  border-radius: 10px;   
   display: block;
-  margin: 16px auto;      /* centre horizontalement */
+  margin: 16px auto;     
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
@@ -49,8 +49,7 @@ body {
   line-height: 1.6;
   color: #222;
   background: #f5f7fb;
-  text-align: center; /* ✅ centre tout le texte par défaut */
-}
+  text-align: center; 
 
 /* Centrage des blocs */
 .card {
@@ -59,16 +58,16 @@ body {
   padding: 20px;
   margin-bottom: 16px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
-  text-align: center; /* ✅ chaque carte centrée */
+  text-align: center; 
 }
 
-/* Listes sociales */
+/* Listes */
 .social {
   list-style: none;
   padding: 0;
   margin: 12px 0 0;
   display: flex;
-  justify-content: center; /* ✅ centre les icônes horizontalement */
+  justify-content: center; 
   gap: 12px;
 }
 section {
@@ -78,12 +77,12 @@ section {
 
 /* Container responsive */
 .container{
-  max-width: 760px;          /* "Build a responsive container" */
+  max-width: 760px;          
   margin: 32px auto;
   padding: 0 var(--space);
 }
 
-/* Cartes (divs) */
+/* Divs */
 .card{
   background:var(--card);
   border-radius:var(--radius);
@@ -93,9 +92,5 @@ section {
   text-align:center;
 }
 
-/* Grille simple pour Skills/Projects (2 colonnes en desktop) */
-.grid{
-  display:grid;
-  gap: var(--space);
-}
+
 
